@@ -15,6 +15,7 @@ strong {
 .fixed-width {
 	max-width: 1100px;
 	margin: 0 auto;
+	padding: 0 20px;
 }
 .high {
 	height: 500px;
@@ -118,7 +119,7 @@ strong {
 	color: white;
 }
 .six h2 {
-	font-family: calibri;
+	font-family: sans-serif;
 }
 .fixed
 {
