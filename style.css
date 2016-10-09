@@ -102,7 +102,7 @@ strong {
 }
 .four p {
 	text-align: center;
-	padding-bottom: 40px;
+	padding: 0 10px 40px 10px;
 	font-size: 20px;
 }
 .five {
