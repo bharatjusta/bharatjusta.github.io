@@ -23,6 +23,9 @@ strong {
 .two {
 	padding-bottom: 40px;
 }
+.two>.fixed-width {
+	padding: 0;
+}
 .three .fixed-width {
 	margin-top: 130px;
 }
@@ -32,7 +35,7 @@ strong {
 #header h1 {
 	font-size: 100px;
 	margin:0;
-	padding-top: 80px;
+	padding-top: 160px;
 	font-family: 'Lobster', cursive;
 	text-shadow: 0 0 10px dimgrey;
 	-webkit-font-smoothing: antialiased;
@@ -147,4 +150,7 @@ footer {
 	bottom: -58px;
 	left: 0;
 	right: 0;
+}
+footer>div.fixed-width {
+	padding: 0;
 }
