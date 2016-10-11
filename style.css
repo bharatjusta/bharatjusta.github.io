@@ -100,7 +100,7 @@ strong {
 	text-shadow: 0 0 10px dimgrey;
 }
 .four>h2 {
-	padding-top: 40px;
+	padding: 40px 0;
 	text-align: center;
 }
 .four p {

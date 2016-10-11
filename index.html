@@ -8,6 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="css/grids-responsive-min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/images-grid.js"></script>
+	<link rel="stylesheet" href="css/images-grid.css">
 </head>
 <body>
 <div class="main">
@@ -34,9 +36,9 @@
 	</div>
 
 	<div class="four">
-	 <h2><strong>PORTFOLIO</strong></h2>
-	  <div class="pure-g fixed-width">
-
+	 <h2>PORTFOLIO</h2>
+	  <div class="fixed-width">
+		<div id="gallery"></div>
 	  </div>
 	</div>
 
@@ -76,4 +78,19 @@
 <footer class="black"><div class="fixed-width">&copy; All Rights Reserved | Bharat Justa 2016 | Single Page Template using PureCSS | Still under construction</div></footer>
 </div>
 </body>
+	<script>
+		$('#gallery').imagesGrid({
+		images: [
+		'images/Portfolio/1.jpg',
+		'images/Portfolio/2.jpg',
+		'images/Portfolio/3.png',
+		'images/Portfolio/4.jpg',
+		'images/Portfolio/5.jpg',
+		'images/Portfolio/6.jpg',
+		'images/Portfolio/7.jpg',
+		'images/Portfolio/8.jpg',
+		'images/Portfolio/9.png'
+		]
+		});
+	</script>
 </html>
