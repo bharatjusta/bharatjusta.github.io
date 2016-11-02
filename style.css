@@ -131,6 +131,11 @@ strong {
 .my-img {
 	border-radius: 50%;
 }
+.my-img-div {
+	width: 280px;
+	height: 280px;
+	overflow: hidden;
+}
 .menu {
 	z-index: 4;
 	padding-left: 100px;
