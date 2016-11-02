@@ -1,7 +1,3 @@
-html {
-	font-size: 100%;
-}
-
 body {
 	color: rgb(100,100,100);
 	font-family: sans-serif;
@@ -149,6 +145,7 @@ strong {
 	z-index: 4;
 	top: 0;
 	left: 20px;
+	max-width: 48px;
 }
 .one, .three {
 	padding: 60px 0;
