@@ -12,6 +12,7 @@ h2 {
   padding: 20px;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 h3 {
@@ -54,6 +55,15 @@ header {
   background-color: white;
   color: #555;
   display: block;
+}
+
+.right-column h3 {
+  font-size: 22px;
+}
+
+.right-column h4 {
+  margin-left: 25px;
+  font-size: 20px;
 }
 
 .top {
@@ -123,7 +133,7 @@ footer p {
     border-radius: 50%;
     max-width: 200px;
     height: auto;
-    padding: 20px;
+    padding: 10px;
     background-color: orange;
     position: relative;
     top: -42px;
@@ -165,7 +175,7 @@ footer p {
   }
 
   .left-column > div:last-child {
-    padding-bottom: 305px;
+    padding-bottom: 214px;
   }
 
   .right-column > div:first-child {
@@ -231,7 +241,7 @@ footer p {
   }
 
   .left-column > div:last-child {
-    padding-bottom: 11px;
+    padding-bottom: 12px;
   }
 
   .right-column > div:first-child {
@@ -243,6 +253,6 @@ footer p {
   }
 
   .bottom-box > div {
-    padding: 26px;
+    padding: 35px;
   }
 }
