@@ -85,6 +85,13 @@ header {
 footer {
   height: 20px;
   background-color: red;
+  font-size: 13px;
+  color: white;
+  text-align: right;
+}
+
+footer p {
+  margin-right: 10px;
 }
 
 /**Media Queries**/
