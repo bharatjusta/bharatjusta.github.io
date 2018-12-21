@@ -97,11 +97,10 @@ footer {
   background-color: red;
   font-size: 13px;
   color: white;
-  text-align: right;
 }
 
 footer p {
-  margin-right: 10px;
+  text-align: center;
 }
 
 /**Media Queries**/
@@ -193,6 +192,11 @@ footer p {
   }
   .bottom-box > div {
     padding: 15px;
+  }
+
+  footer p {
+    text-align: right;
+    margin-right: 10px;
   }
 }
 
