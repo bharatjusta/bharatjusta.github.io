@@ -114,7 +114,7 @@ footer p {
     max-width: inherit;
     min-width: 800px;
     position: absolute;
-    top: 80px;
+    top: 100px;
     height: 120px;
   }
 
@@ -142,6 +142,10 @@ footer p {
     font-size: 70px;
     margin-bottom: 0px;
     margin-top: -26px;
+  }
+
+  #main {
+    margin-top: 20px;
   }
 
   .profile::after {
@@ -206,7 +210,7 @@ footer p {
 
   .profile {
     min-width: 1000px;
-    top: 60px;
+    top: 75px;
     height: 120px;
   }
 
@@ -244,7 +248,7 @@ footer p {
   }
 
   .left-column > div:last-child {
-    padding-bottom: 12px;
+    padding-bottom: 17px;
   }
 
   .right-column > div:first-child {
@@ -252,10 +256,10 @@ footer p {
   }
 
   .right-column > div:nth-child(2) {
-    margin-top: 120px;
+    margin-top: 115px;
   }
 
   .bottom-box > div {
-    padding: 35px;
+    padding: 40px;
   }
 }
