@@ -198,8 +198,8 @@ footer p {
     display: table;
   }
   .bottom-box > div {
-    height: 105px;
-    padding-top: 28px;
+    height: 153px;
+    padding-top: 50px;
   }
 
   .bottom-box .fab:hover {
@@ -270,10 +270,10 @@ footer p {
   }
 
   .bottom-box {
-    height: 155px;
+    height: 203px;
   }
 
   .bottom-box div {
-    padding-top: 50px;
+    padding-top: 80px;
   }
 }
