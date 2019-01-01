@@ -181,7 +181,7 @@ footer p {
   }
 
   .left-column > div:last-child {
-    padding-bottom: 214px;
+    padding-bottom: 238px;
   }
 
   .right-column > div:first-child {
@@ -270,10 +270,10 @@ footer p {
   }
 
   .bottom-box {
-    height: 203px;
+    height: 179px;
   }
 
   .bottom-box div {
-    padding-top: 80px;
+    padding-top: 66px;
   }
 }
