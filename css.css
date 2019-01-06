@@ -2,12 +2,13 @@ body {
   margin: auto;
   margin-top: 0px;
   margin-bottom: 0px;
-  background: #282c34;
+  background: #282c34 url('images/wood2.jpg');
   color: white;
+  box-shadow: 0 0 5px 2px #222;
 }
 
 h2 {
-  background-color: #282c34;
+  background: #282c34 url('images/paper.jpg');
   color: white;
   padding: 20px;
   text-align: center;
@@ -20,11 +21,11 @@ h3 {
 }
 
 header {
-  background-color: white;
+  background: white url('images/paper2.jpg');
 }
 
 .profile {
-  background-color: #563d41;
+  background: #563d41 url('images/brown paper.jpg');
 }
 
 .profile img {
@@ -41,17 +42,17 @@ header {
 }
 
 #main {
-  background-color: white;
+  background: white url('images/paper2.jpg');
 }
 
 .left-column {
-  background-color: #b56f56;
+  background: #b56f56 url('images/orange paper.jpg');
   color: white;
   display: block;
 }
 
 .right-column {
-  background-color: white;
+  background: white url('images/paper2.jpg');
   color: #555;
   display: block;
 }
@@ -75,7 +76,7 @@ header {
 }
 
 .bottom-box {
-  background-color: #563d41;
+  background: #563d41 url('images/brown paper.jpg');
   text-align: center;
 }
 
@@ -91,7 +92,7 @@ header {
 }
 
 footer {
-  background-color: red;
+  background: red url('images/red paper.jpg');
   font-size: 13px;
   color: white;
 }
@@ -132,14 +133,12 @@ footer p {
 
   .profile img {
     display: block;
-    border-radius: 50%;
     max-width: 200px;
     height: auto;
     padding: 10px;
-    background-color: orange;
+    background: orange url('images/orange paper2.jpg');
     position: relative;
     top: -42px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
   }
 
   .profile h1 {
