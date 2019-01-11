@@ -231,12 +231,6 @@ a.down-btn span.fa.fa-angle-down {
 
 #about-me {
   height: auto;
-  min-height: 710px;
-}
-
-#about-me #cta {
-  position: relative;
-  bottom: -150px;
 }
 
 .service{
