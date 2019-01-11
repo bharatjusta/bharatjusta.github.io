@@ -280,6 +280,7 @@ a.btn.go-to-btn{
 	font-size: 12px;
 	color: #ffffff;
 	transition: all 0.5s;
+  margin: 10px 0px;
 }
 a.btn.go-to-btn:hover{
 	background: #2aabcf;
