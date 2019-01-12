@@ -231,6 +231,7 @@ a.down-btn span.fa.fa-angle-down {
 
 #about-me {
   height: auto;
+  text-align: justify;
 }
 
 .service{
